@@ -93,12 +93,5 @@ Medical Inventory is a comprehensive web application for managing medical suppli
 ### 🧹 ESLint Configuration
 This project uses the default ESLint configuration provided by Create React App.
 
-## 🌐 Browser Support
-- 🖥️ Production: Browsers with >0.2% market share
-- 🧪 Development: Latest versions of Chrome, Firefox, and Safari
-
-## 📄 License
-This project is private and proprietary.
-
 ## 📞 Contact
-For support or inquiries, please contact [your contact information].
+For support or inquiries, please contact christopheraseer93@gmail.com.
