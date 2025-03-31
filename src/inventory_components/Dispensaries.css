@@ -1,0 +1,151 @@
+/* Main container */
+.dispensaries-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  /* Title and summary */
+  .dispensaries-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .dispensaries-summary {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  /* Table container */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  /* Table styles */
+  .dispensaries-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dispensaries-table thead tr {
+    background-color: #f9fafb;
+  }
+  
+  .dispensaries-table th {
+    padding: 0.75rem 1.5rem;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .dispensaries-table td {
+    padding: 1rem 1.5rem;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .dispensaries-table tbody tr:hover {
+    background-color: #f9fafb;
+  }
+  
+  /* Cell styles */
+  .cell-name {
+    font-weight: 500;
+    color: #1f2937;
+  }
+  
+  .cell-location, .cell-type {
+    color: #6b7280;
+  }
+  
+  .cell-inventory {
+    font-weight: 500;
+  }
+  
+  .cell-contact {
+    color: #6b7280;
+  }
+  
+  .contact-phone {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-top: 0.25rem;
+  }
+  
+  /* Status badges */
+  .status-badge {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    display: inline-block;
+  }
+  
+  .status-active {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+  
+  .status-inactive {
+    background-color: #f3f4f6;
+    color: #6b7280;
+  }
+  
+  .status-maintenance {
+    background-color: #fef3c7;
+    color: #92400e;
+  }
+  
+  /* Inventory indicator colors */
+  .inventory-high {
+    color: #059669;
+  }
+  
+  .inventory-medium {
+    color: #2563eb;
+  }
+  
+  .inventory-low {
+    color: #dc2626;
+  }
+  
+  .inventory-default {
+    color: #6b7280;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .dispensaries-table td,
+    .dispensaries-table th {
+      padding: 0.75rem 1rem;
+    }
+    
+    .dispensaries-title {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .dispensaries-container {
+      padding: 1rem;
+    }
+    
+    .cell-contact {
+      max-width: 150px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }

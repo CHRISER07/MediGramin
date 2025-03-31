@@ -1,0 +1,22 @@
+export const ordersData = [
+    { id: '#ORD-001', medicine: 'Amoxicillin', quantity: 50, status: 'Scheduled', priority: 'Normal' },
+    { id: '#ORD-002', medicine: 'Ibuprofen', quantity: 100, status: 'Pending', priority: 'High' },
+    { id: '#ORD-003', medicine: 'Insulin', quantity: 25, status: 'Delivered', priority: 'Urgent' },
+    { id: '#ORD-004', medicine: 'Azithromycin', quantity: 40, status: 'Processing', priority: 'Normal' },
+    { id: '#ORD-005', medicine: 'Crocin', quantity: 200, status: 'Delivered', priority: 'Normal' },
+    { id: '#ORD-006', medicine: 'Dolo 650', quantity: 300, status: 'Delivered', priority: 'Low' },
+    { id: '#ORD-007', medicine: 'Revital H', quantity: 60, status: 'Pending', priority: 'Normal' },
+    { id: '#ORD-008', medicine: 'Metformin', quantity: 90, status: 'Scheduled', priority: 'High' },
+    { id: '#ORD-009', medicine: 'Pantop D', quantity: 45, status: 'Cancelled', priority: 'Low' },
+    { id: '#ORD-010', medicine: 'Ecosprin', quantity: 80, status: 'Delivered', priority: 'Normal' },
+    { id: '#ORD-011', medicine: 'Allegra', quantity: 70, status: 'Processing', priority: 'Normal' },
+    { id: '#ORD-012', medicine: 'Thyronorm', quantity: 60, status: 'Pending', priority: 'Urgent' },
+    { id: '#ORD-013', medicine: 'Shelcal', quantity: 120, status: 'Delivered', priority: 'Normal' },
+    { id: '#ORD-014', medicine: 'Limcee', quantity: 150, status: 'Scheduled', priority: 'Low' },
+    { id: '#ORD-015', medicine: 'Digene', quantity: 110, status: 'Delivered', priority: 'Normal' },
+    { id: '#ORD-016', medicine: 'Sumo L', quantity: 50, status: 'Cancelled', priority: 'High' },
+    { id: '#ORD-017', medicine: 'Neurobion Forte', quantity: 80, status: 'Processing', priority: 'Normal' },
+    { id: '#ORD-018', medicine: 'Evion 400', quantity: 100, status: 'Delivered', priority: 'Low' },
+    { id: '#ORD-019', medicine: 'Telmikind', quantity: 30, status: 'Pending', priority: 'Urgent' },
+    { id: '#ORD-020', medicine: 'Pan D', quantity: 60, status: 'Scheduled', priority: 'Normal' }
+  ];
