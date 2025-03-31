@@ -1,0 +1,101 @@
+patient_id,name,age,gender,medical_condition,severity_level,urgency_score,required_medicine_treatment,consultation_type,village,medicine_name,stock_available,alternative_medicine_available,estimated_medicine_consumption,appointment_request_time,last_consultation_date,expected_treatment_duration,latitude,longitude
+PID-001,Manoj,50,Male,Allergy,Mild,6,Insulin,Specialist,Bommagatta,Insulin,No,Amoxicillin,4.04,2025-03-19 15:22,2024-09-28,45 min,15.201783,76.647802
+PID-002,Dev,86,Other,Fracture,Moderate,8,Ibuprofen,General Checkup,Taranagar,Ibuprofen,No,Naproxen,1.88,2025-03-7 16:49,2024-10-23,38 min,15.117633,76.577599
+PID-003,Mahi,64,Other,Asthma,Critical,7,Paracetamol,General Checkup,Bhujanganagar,Paracetamol,Yes,,3.68,2025-03-12 13:42,2024-11-14,10 min,15.147832,76.600964
+PID-004,Prakash,85,Male,Fracture,Critical,7,Insulin,Emergency,Bhujanganagar,Insulin,No,Metformin,3.61,2025-03-5 11:37,2024-09-24,49 min,15.147838,76.600966
+PID-005,Pooja,54,Female,Infection,Severe,8,Paracetamol,General Checkup,Sandur,Paracetamol,No,Aspirin,4.53,2025-03-29 17:37,2024-05-24,38 min,15.09912,76.548529
+PID-006,Rohan,32,Other,Migraine,Critical,1,Ibuprofen,Specialist,Taranagar,Ibuprofen,Yes,,0.98,2025-03-1 16:42,2024-03-15,54 min,15.117543,76.580019
+PID-007,Dev,24,Other,Hypertension,Critical,9,Ibuprofen,General Checkup,Sandur,Ibuprofen,Yes,,4.12,2025-03-3 11:39,2024-05-11,57 min,15.097422,76.551743
+PID-008,Kavita,47,Female,Diabetes,Critical,7,Paracetamol,Emergency,Taranagar,Paracetamol,No,Acetaminophen,1.53,2025-03-21 17:54,2024-05-18,20 min,15.119493,76.578446
+PID-009,Sita,30,Female,Fracture,Critical,2,Antihistamines,General Checkup,Sandur,Antihistamines,No,Naproxen,1.33,2025-03-22 9:42,2024-02-15,42 min,15.103387,76.545907
+PID-010,Priya,56,Female,Fracture,Moderate,9,Ibuprofen,Specialist,Krishnanagar,Ibuprofen,No,Amoxicillin,3.34,2025-03-15 14:28,2024-03-22,34 min,15.178885,76.618437
+PID-011,Deepak,81,Male,Infection,Critical,8,Antibiotics,Specialist,Bhujanganagar,Antibiotics,Yes,,3.0,2025-03-24 18:50,2024-10-19,39 min,15.150601,76.599815
+PID-012,Arya,33,Other,Infection,Mild,9,Antibiotics,Specialist,Deogiri,Antibiotics,No,Naproxen,4.87,2025-03-13 9:37,2024-08-23,19 min,15.159712,76.631074
+PID-013,Anjali,60,Female,Fracture,Moderate,3,Antibiotics,Specialist,Bommagatta,Antibiotics,Yes,,4.71,2025-03-30 15:56,2024-12-26,50 min,15.198484,76.649461
+PID-014,Prakash,1,Male,Migraine,Critical,7,Antihistamines,Specialist,Deogiri,Antihistamines,Yes,,2.87,2025-03-26 14:28,2024-11-01,52 min,15.160264,76.629648
+PID-015,Kavita,79,Female,Fracture,Mild,8,Ibuprofen,General Checkup,Taranagar,Ibuprofen,Yes,,4.56,2025-03-18 12:21,2024-02-19,39 min,15.117801,76.57887
+PID-016,Neha,41,Female,Flu,Mild,3,Painkillers,Specialist,Taranagar,Painkillers,No,Metformin,3.85,2025-03-17 10:27,2024-06-08,13 min,15.119277,76.58201
+PID-017,Ritu,34,Other,Migraine,Severe,4,Insulin,General Checkup,Sandur,Insulin,Yes,,2.55,2025-03-22 11:05,2024-11-05,14 min,15.098059,76.552325
+PID-018,Rekha,28,Female,Fracture,Severe,5,Painkillers,General Checkup,Bommagatta,Painkillers,Yes,,1.3,2025-03-24 15:42,2024-08-26,17 min,15.201315,76.647634
+PID-019,Rekha,47,Female,Migraine,Moderate,10,Antihistamines,Emergency,Sandur,Antihistamines,No,Metformin,2.4,2025-03-25 17:32,2024-07-09,31 min,15.095747,76.550735
+PID-020,Sunil,62,Male,Asthma,Critical,10,Insulin,Emergency,Deogiri,Insulin,No,Metformin,0.78,2025-03-22 17:05,2024-09-08,43 min,15.160787,76.630921
+PID-021,Rajesh,12,Male,Migraine,Moderate,10,Antibiotics,Emergency,Krishnanagar,Antibiotics,Yes,,0.92,2025-03-2 15:49,2024-03-12,55 min,15.182391,76.617602
+PID-022,Tanu,36,Other,Flu,Moderate,1,Ibuprofen,Specialist,Sandur,Ibuprofen,Yes,,3.85,2025-03-9 9:18,2024-08-22,42 min,15.099049,76.549006
+PID-023,Vikram,72,Male,Covid-19,Critical,1,Antibiotics,General Checkup,Krishnanagar,Antibiotics,Yes,,1.48,2025-03-29 15:04,2024-01-05,45 min,15.179579,76.621269
+PID-024,Jyoti,82,Female,Fracture,Critical,6,Antibiotics,Specialist,Sandur,Antibiotics,No,Acetaminophen,3.55,2025-03-26 14:30,2024-10-09,29 min,15.098049,76.553623
+PID-025,Charan,51,Other,Allergy,Moderate,6,Antibiotics,Specialist,Sandur,Antibiotics,Yes,,1.22,2025-03-27 17:52,2024-03-24,19 min,15.101475,76.552241
+PID-026,Prakash,28,Male,Migraine,Severe,4,Antibiotics,General Checkup,Bommagatta,Antibiotics,No,Metformin,2.87,2025-03-16 9:31,2024-10-13,42 min,15.20015,76.648103
+PID-027,Dev,50,Other,Diabetes,Critical,5,Paracetamol,General Checkup,Krishnanagar,Paracetamol,No,Amoxicillin,1.17,2025-03-10 18:48,2024-11-17,58 min,15.182029,76.620526
+PID-028,Rajesh,18,Male,Diabetes,Moderate,7,Antibiotics,General Checkup,Bommagatta,Antibiotics,Yes,,3.06,2025-03-29 12:03,2024-07-15,33 min,15.20059,76.648351
+PID-029,Rajesh,72,Male,Infection,Mild,3,Paracetamol,General Checkup,Krishnanagar,Paracetamol,No,Acetaminophen,0.63,2025-03-23 12:14,2024-04-06,20 min,15.180322,76.621816
+PID-030,Meena,14,Female,Diabetes,Mild,4,Insulin,Specialist,Bhujanganagar,Insulin,Yes,,3.64,2025-03-17 17:35,2024-09-03,13 min,15.150047,76.602086
+PID-031,Vikram,50,Male,Allergy,Severe,6,Antibiotics,Specialist,Deogiri,Antibiotics,No,Metformin,2.93,2025-03-5 9:47,2024-01-12,51 min,15.159685,76.630542
+PID-032,Arun,41,Male,Diabetes,Moderate,4,Ibuprofen,General Checkup,Taranagar,Ibuprofen,Yes,,3.49,2025-03-20 9:48,2024-05-09,60 min,15.117033,76.582478
+PID-033,Meena,25,Female,Covid-19,Critical,10,Antibiotics,Specialist,Sandur,Antibiotics,No,Acetaminophen,0.7,2025-03-12 17:54,2024-08-15,17 min,15.099121,76.548647
+PID-034,Rekha,58,Female,Flu,Mild,1,Insulin,Specialist,Bommagatta,Insulin,Yes,,3.04,2025-03-23 13:31,2024-11-21,25 min,15.198124,76.650954
+PID-035,Radha,61,Female,Covid-19,Moderate,5,Antibiotics,Emergency,Sandur,Antibiotics,No,Amoxicillin,3.27,2025-03-3 12:30,2024-08-06,52 min,15.10224,76.551843
+PID-036,Mahi,25,Other,Diabetes,Severe,9,Insulin,Specialist,Sandur,Insulin,Yes,,4.48,2025-03-30 17:38,2024-10-21,46 min,15.096414,76.547316
+PID-037,Rohan,80,Other,Migraine,Moderate,9,Paracetamol,General Checkup,Taranagar,Paracetamol,Yes,,4.87,2025-03-12 18:44,2024-08-15,18 min,15.1192,76.57752
+PID-038,Rajesh,80,Male,Hypertension,Severe,5,Antihistamines,Specialist,Bhujanganagar,Antihistamines,Yes,,2.59,2025-03-18 11:53,2024-03-06,47 min,15.147587,76.597617
+PID-039,Pooja,60,Female,Flu,Mild,10,Antihistamines,Emergency,Deogiri,Antihistamines,Yes,,4.06,2025-03-2 17:05,2024-07-06,20 min,15.159694,76.631016
+PID-040,Sandeep,19,Male,Migraine,Mild,9,Insulin,Specialist,Bhujanganagar,Insulin,No,Naproxen,1.17,2025-03-16 13:34,2024-02-27,19 min,15.149307,76.599936
+PID-041,Rekha,56,Female,Infection,Moderate,9,Painkillers,Specialist,Bhujanganagar,Painkillers,No,Amoxicillin,1.21,2025-03-7 16:44,2024-12-14,26 min,15.151775,76.600165
+PID-042,Sita,55,Female,Covid-19,Critical,2,Insulin,Emergency,Krishnanagar,Insulin,No,Acetaminophen,3.76,2025-03-6 12:08,2024-05-24,36 min,15.178453,76.620628
+PID-043,Sandeep,58,Male,Migraine,Severe,8,Antihistamines,Emergency,Taranagar,Antihistamines,Yes,,3.32,2025-03-9 16:56,2024-06-06,21 min,15.121562,76.577576
+PID-044,Rajesh,48,Male,Migraine,Critical,1,Antihistamines,Specialist,Taranagar,Antihistamines,Yes,,1.96,2025-03-6 12:07,2024-10-16,11 min,15.117038,76.581671
+PID-045,Meena,65,Female,Hypertension,Critical,10,Antihistamines,Specialist,Bhujanganagar,Antihistamines,No,Metformin,3.45,2025-03-21 16:24,2024-04-26,29 min,15.150297,76.598431
+PID-046,Neha,54,Female,Diabetes,Moderate,6,Antihistamines,Specialist,Deogiri,Antihistamines,Yes,,3.78,2025-03-24 8:50,2024-10-06,35 min,15.159673,76.629526
+PID-047,Kavita,42,Female,Hypertension,Severe,1,Painkillers,Specialist,Sandur,Painkillers,Yes,,3.83,2025-03-14 16:36,2024-07-09,58 min,15.103918,76.550233
+PID-048,Radha,18,Female,Covid-19,Mild,6,Antihistamines,Emergency,Sandur,Antihistamines,Yes,,1.25,2025-03-14 14:16,2024-09-19,27 min,15.101249,76.546638
+PID-049,Ritu,30,Other,Asthma,Moderate,8,Insulin,Specialist,Krishnanagar,Insulin,No,Acetaminophen,2.95,2025-03-6 18:59,2024-10-11,46 min,15.18107,76.619511
+PID-050,Charan,62,Other,Fracture,Severe,4,Paracetamol,General Checkup,Taranagar,Paracetamol,No,Amoxicillin,0.54,2025-03-21 12:34,2024-10-15,49 min,15.117001,76.579756
+PID-051,Priya,67,Female,Fracture,Critical,2,Insulin,Emergency,Bhujanganagar,Insulin,No,Naproxen,2.65,2025-03-13 10:55,2024-03-15,31 min,15.149444,76.60008
+PID-052,Anjali,66,Female,Fracture,Severe,1,Insulin,Emergency,Bhujanganagar,Insulin,Yes,,4.98,2025-03-13 18:19,2024-09-17,23 min,15.151837,76.598899
+PID-053,Surya,32,Other,Hypertension,Moderate,4,Insulin,General Checkup,Bhujanganagar,Insulin,Yes,,2.12,2025-03-3 14:53,2024-12-04,57 min,15.148631,76.600329
+PID-054,Ritu,23,Other,Hypertension,Moderate,2,Antibiotics,General Checkup,Taranagar,Antibiotics,Yes,,3.37,2025-03-25 8:23,2024-09-01,11 min,15.122288,76.582213
+PID-055,Dev,70,Other,Infection,Mild,3,Ibuprofen,Specialist,Bhujanganagar,Ibuprofen,Yes,,4.85,2025-03-8 10:22,2024-04-01,10 min,15.149076,76.601345
+PID-056,Radha,69,Female,Asthma,Mild,1,Insulin,Specialist,Bhujanganagar,Insulin,No,Acetaminophen,2.94,2025-03-9 12:25,2024-12-03,59 min,15.149983,76.599437
+PID-057,Rajesh,37,Male,Flu,Mild,6,Paracetamol,Emergency,Deogiri,Paracetamol,No,Metformin,2.47,2025-03-2 13:54,2024-10-12,14 min,15.159199,76.628995
+PID-058,Rohan,57,Other,Diabetes,Mild,2,Insulin,Emergency,Sandur,Insulin,No,Acetaminophen,1.49,2025-03-29 12:25,2024-06-01,50 min,15.098986,76.549315
+PID-059,Arun,2,Male,Asthma,Critical,4,Painkillers,Emergency,Bhujanganagar,Painkillers,Yes,,1.41,2025-03-5 11:19,2024-10-21,55 min,15.152251,76.59848
+PID-060,Arun,3,Male,Migraine,Critical,9,Insulin,Emergency,Deogiri,Insulin,No,Aspirin,1.74,2025-03-27 14:21,2024-06-05,17 min,15.15979,76.630208
+PID-061,Anjali,42,Female,Hypertension,Severe,2,Painkillers,Emergency,Bhujanganagar,Painkillers,Yes,,2.66,2025-03-1 14:42,2024-11-20,29 min,15.148149,76.600571
+PID-062,Surya,66,Other,Covid-19,Moderate,7,Insulin,Specialist,Bhujanganagar,Insulin,No,Amoxicillin,2.4,2025-03-30 10:08,2024-09-09,44 min,15.149897,76.598878
+PID-063,Deepak,58,Male,Fracture,Moderate,9,Painkillers,Emergency,Taranagar,Painkillers,Yes,,4.58,2025-03-7 14:20,2024-09-22,20 min,15.122734,76.580719
+PID-064,Deepak,37,Male,Allergy,Critical,2,Antihistamines,Specialist,Taranagar,Antihistamines,No,Naproxen,2.94,2025-03-15 18:14,2024-11-16,44 min,15.122706,76.583
+PID-065,Deepak,31,Male,Asthma,Critical,5,Ibuprofen,Emergency,Bhujanganagar,Ibuprofen,No,Acetaminophen,2.03,2025-03-7 10:54,2024-09-03,55 min,15.147941,76.598144
+PID-066,Surya,83,Other,Hypertension,Mild,4,Paracetamol,Emergency,Bhujanganagar,Paracetamol,No,Amoxicillin,1.28,2025-03-25 13:17,2024-09-23,30 min,15.151807,76.600141
+PID-067,Kiran,54,Other,Asthma,Mild,2,Ibuprofen,Emergency,Deogiri,Ibuprofen,No,Aspirin,1.41,2025-03-10 17:50,2024-05-04,11 min,15.160954,76.629733
+PID-068,Kiran,39,Other,Migraine,Mild,7,Paracetamol,General Checkup,Krishnanagar,Paracetamol,No,Amoxicillin,0.84,2025-03-4 18:06,2024-10-25,44 min,15.179734,76.621327
+PID-069,Meena,41,Female,Hypertension,Critical,8,Insulin,Emergency,Krishnanagar,Insulin,No,Amoxicillin,0.62,2025-03-3 17:34,2024-09-14,10 min,15.179781,76.620169
+PID-070,Rekha,83,Female,Infection,Moderate,8,Antihistamines,General Checkup,Sandur,Antihistamines,No,Metformin,3.63,2025-03-27 11:21,2024-11-09,31 min,15.098146,76.545538
+PID-071,Sita,38,Female,Diabetes,Mild,4,Antihistamines,Emergency,Taranagar,Antihistamines,No,Acetaminophen,3.06,2025-03-4 14:46,2024-09-12,46 min,15.121136,76.581517
+PID-072,Charan,70,Other,Fracture,Moderate,7,Ibuprofen,Emergency,Bommagatta,Ibuprofen,No,Naproxen,4.55,2025-03-16 14:26,2024-06-28,41 min,15.199949,76.647734
+PID-073,Rajesh,2,Male,Allergy,Critical,3,Insulin,General Checkup,Bommagatta,Insulin,No,Acetaminophen,3.68,2025-03-23 12:58,2024-01-24,57 min,15.199188,76.648083
+PID-074,Deepak,4,Male,Allergy,Severe,9,Antibiotics,Specialist,Sandur,Antibiotics,Yes,,4.24,2025-03-14 17:14,2024-11-21,33 min,15.099874,76.546785
+PID-075,Ritu,45,Other,Diabetes,Critical,10,Ibuprofen,Emergency,Krishnanagar,Ibuprofen,No,Acetaminophen,1.32,2025-03-18 10:48,2024-09-01,23 min,15.178165,76.621843
+PID-076,Rekha,50,Female,Asthma,Severe,5,Painkillers,Emergency,Bhujanganagar,Painkillers,Yes,,0.99,2025-03-2 10:19,2024-12-10,32 min,15.151984,76.597982
+PID-077,Sita,4,Female,Infection,Mild,3,Painkillers,General Checkup,Deogiri,Painkillers,No,Naproxen,4.12,2025-03-24 13:57,2024-04-16,54 min,15.160133,76.630311
+PID-078,Deepak,63,Male,Asthma,Critical,4,Insulin,General Checkup,Bhujanganagar,Insulin,Yes,,1.98,2025-03-20 17:24,2024-07-02,15 min,15.149441,76.600001
+PID-079,Shiv,76,Other,Flu,Critical,4,Insulin,Specialist,Krishnanagar,Insulin,No,Aspirin,3.89,2025-03-19 9:42,2024-10-03,43 min,15.179336,76.621084
+PID-080,Rohan,39,Other,Flu,Critical,7,Antibiotics,Emergency,Deogiri,Antibiotics,No,Acetaminophen,4.84,2025-03-3 16:01,2024-07-21,25 min,15.159862,76.630732
+PID-081,Kiran,21,Other,Hypertension,Moderate,4,Antibiotics,Emergency,Krishnanagar,Antibiotics,Yes,,1.65,2025-03-18 10:54,2024-11-08,14 min,15.179708,76.621534
+PID-082,Deepak,69,Male,Diabetes,Critical,3,Paracetamol,Emergency,Bommagatta,Paracetamol,Yes,,1.12,2025-03-1 17:12,2024-02-04,12 min,15.201759,76.647831
+PID-083,Sandeep,8,Male,Migraine,Critical,7,Painkillers,Specialist,Krishnanagar,Painkillers,No,Acetaminophen,1.86,2025-03-7 17:34,2024-09-18,51 min,15.182345,76.619059
+PID-084,Vikram,36,Male,Flu,Critical,7,Painkillers,Specialist,Krishnanagar,Painkillers,No,Amoxicillin,2.6,2025-03-20 9:38,2024-11-07,39 min,15.181059,76.61945
+PID-085,Rajesh,87,Male,Diabetes,Moderate,1,Antibiotics,Emergency,Bhujanganagar,Antibiotics,Yes,,4.83,2025-03-11 16:59,2024-05-25,22 min,15.15111,76.601592
+PID-086,Rahul,79,Male,Infection,Critical,3,Painkillers,General Checkup,Bhujanganagar,Painkillers,No,Naproxen,2.36,2025-03-10 14:47,2024-09-03,24 min,15.152247,76.599262
+PID-087,Radha,45,Female,Diabetes,Critical,3,Antibiotics,Specialist,Sandur,Antibiotics,No,Amoxicillin,2.46,2025-03-4 10:30,2024-11-11,24 min,15.095883,76.552074
+PID-088,Shiv,31,Other,Allergy,Mild,1,Ibuprofen,Emergency,Deogiri,Ibuprofen,Yes,,4.46,2025-03-10 10:10,2024-07-06,14 min,15.160603,76.629255
+PID-089,Tanu,58,Other,Asthma,Mild,4,Ibuprofen,Emergency,Sandur,Ibuprofen,No,Amoxicillin,2.45,2025-03-13 17:28,2024-12-01,46 min,15.101529,76.547537
+PID-090,Arun,52,Male,Diabetes,Moderate,2,Antibiotics,Specialist,Bommagatta,Antibiotics,Yes,,1.59,2025-03-8 12:27,2024-07-07,37 min,15.201896,76.648974
+PID-091,Rohan,24,Other,Covid-19,Critical,4,Paracetamol,General Checkup,Bhujanganagar,Paracetamol,Yes,,1.12,2025-03-2 16:10,2024-07-04,17 min,15.148813,76.601674
+PID-092,Rajesh,54,Male,Covid-19,Critical,9,Antihistamines,Specialist,Bhujanganagar,Antihistamines,Yes,,2.23,2025-03-20 17:33,2024-10-13,54 min,15.151253,76.599458
+PID-093,Anjali,26,Female,Migraine,Moderate,3,Antibiotics,General Checkup,Deogiri,Antibiotics,Yes,,1.36,2025-03-3 9:46,2024-01-04,12 min,15.159652,76.630247
+PID-094,Rohan,13,Other,Covid-19,Severe,5,Antibiotics,Specialist,Sandur,Antibiotics,Yes,,1.93,2025-03-26 17:59,2024-09-10,19 min,15.097004,76.549467
+PID-095,Sunil,25,Male,Diabetes,Critical,4,Painkillers,Specialist,Krishnanagar,Painkillers,No,Acetaminophen,2.55,2025-03-4 13:02,2024-05-04,36 min,15.178438,76.622143
+PID-096,Rekha,60,Female,Diabetes,Severe,4,Insulin,Specialist,Deogiri,Insulin,No,Metformin,4.9,2025-03-12 13:16,2024-06-28,53 min,15.16088,76.631006
+PID-097,Surya,24,Other,Infection,Critical,3,Ibuprofen,General Checkup,Bommagatta,Ibuprofen,No,Metformin,4.11,2025-03-17 16:23,2024-09-03,48 min,15.19982,76.647786
+PID-098,Prakash,11,Male,Fracture,Mild,1,Antibiotics,General Checkup,Bhujanganagar,Antibiotics,Yes,,4.74,2025-03-14 16:01,2024-04-05,33 min,15.148238,76.599061
+PID-099,Shiv,51,Other,Fracture,Severe,6,Ibuprofen,General Checkup,Bhujanganagar,Ibuprofen,No,Metformin,1.05,2025-03-30 11:26,2024-04-21,25 min,15.152173,76.601204
+PID-100,Sandeep,47,Male,Flu,Severe,10,Ibuprofen,Specialist,Deogiri,Ibuprofen,No,Amoxicillin,3.08,2025-03-19 13:47,2024-12-02,46 min,15.160503,76.629784
