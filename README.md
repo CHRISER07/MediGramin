@@ -1,97 +1,126 @@
-# 🏥 Medical Inventory Management System
+# ArogyaMitra — MediGramin 2.0
+### Mobile-based EHR Companion for ASHA Workers in Low-Internet Areas
+**Team:** Genesis DEVs | **SIH Problem Statement ID:** 25219
 
-## 📋 Overview
-Medical Inventory is a comprehensive web application for managing medical supplies and equipment inventory. Built with React and powered by a Flask backend, it provides real-time tracking, data visualization, and predictive analytics for healthcare facilities.
+---
 
-## ✨ Features
-- 📦 Inventory tracking and management
-- 📊 Interactive dashboards with Charts.js and Recharts
-- 🗺️ Geographic visualization with Leaflet
-- 🧠 Predictive analytics using machine learning
-- 🔔 User-friendly notifications via React-Toastify
-- 📱 Responsive design with Tailwind CSS
+## 🏥 What is MediGramin?
+
+MediGramin is a **production-grade rural healthcare command center** built for ASHA (Accredited Social Health Activist) workers and PHC (Primary Health Centre) administrators in low-connectivity areas of India.
+
+It provides AI-powered tools for:
+- 📦 **Medicine Inventory Management** — ML forecasting, low-stock alerts, AI insights
+- 🧭 **Patient Route Optimization** — KMeans clustering + AI urgency scoring  
+- 🩺 **ASHA Visit Logging** — Vitals, triage (Red/Amber/Green), voice-to-text
+- 💊 **E-Prescriptions** — Digital prescriptions with QR verification
+- 🤖 **Multilingual AI Chatbot** — 7 Indian languages via Gemini 2.0
+- 📊 **Analytics Dashboard** — Recharts-powered health & inventory analytics
+- 📅 **Appointment Booking** — Doctor slots, printable confirmations
+
+---
 
 ## 🛠️ Tech Stack
-### 🖥️ Frontend
-- ⚛️ React 19.0.0
-- 🧭 React Router 7.4.0
-- 📈 Chart.js & React-Chartjs-2
-- 📊 Recharts for data visualization
-- 🗺️ Leaflet for maps
-- 🎨 Tailwind CSS for styling
-- 🔍 Lucide React for icons
 
-### ⚙️ Backend
-- 🐍 Flask (Python)
-- 🗄️ SQLite for database
-- 🐼 Pandas & NumPy for data processing
-- 🔬 Scikit-learn for predictive analytics
-- 🤖 AIXplain integration for advanced analytics
+| Layer | Tech |
+|---|---|
+| Frontend | React 18, React Router, Recharts, Lucide Icons |
+| Backend | Flask, Flask-CORS, SQLite (WAL mode) |
+| AI | Google Gemini 2.0 Flash (direct REST API) |
+| ML | Scikit-learn (KMeans, LinearRegression) |
+| Voice | Web Speech API (free, browser-native) |
+| Styling | Custom CSS design system (glassmorphism, dark mode) |
 
-## 📥 Installation
+---
 
-### 📋 Prerequisites
-- 📦 Node.js (v16 or higher)
-- 🐍 Python 3.8+
-- 📦 pip
+## 🚀 Quick Start
 
-### 🖥️ Frontend Setup
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/medical-inventory.git
-   cd medical-inventory
-   ```
+### Prerequisites
+- Python 3.10+
+- Node.js 18+
+- A free Google Gemini API key → [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
 
-2. Install dependencies
-   ```bash
-   npm install
-   ```
+### 1. Clone & setup environment
+```bash
+git clone https://github.com/YOUR_USERNAME/medigramin.git
+cd medigramin
+cp .env.example .env
+# Edit .env and add your GOOGLE_API_KEY
+```
 
-3. Start the development server
-   ```bash
-   npm start
-   ```
+### 2. Backend
+```bash
+pip install -r requirements.txt
+python server/app.py
+# → http://localhost:5000
+```
 
-### ⚙️ Backend Setup
-1. Navigate to the backend directory
-   ```bash
-   cd backend
-   ```
+### 3. Frontend
+```bash
+npm install --legacy-peer-deps
+npm start
+# → http://localhost:3000
+```
 
-2. Create and activate a virtual environment
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-   ```
+---
 
-3. Install Python dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 📁 Project Structure
 
-4. Start the Flask server
-   ```bash
-   flask run
-   ```
+```
+medigramin/
+├── server/                 # Flask backend
+│   ├── app.py              # Main app factory
+│   ├── config.py           # Gemini AI + config
+│   ├── db.py               # SQLite layer
+│   └── routes/             # API blueprints
+│       ├── inventory.py    # /api/inventory/*
+│       ├── patients.py     # /api/patients/*
+│       ├── visits.py       # /api/visits/*
+│       ├── chatbot.py      # /api/chatbot/*
+│       ├── routing.py      # /api/routing/*
+│       └── prescriptions.py
+├── src/                    # React frontend
+│   ├── pages/              # 13 feature pages
+│   ├── components/         # Shared components
+│   ├── services/api.js     # Axios API layer
+│   └── styles/globals.css  # Design system
+├── sample_data/            # Demo CSV datasets
+│   ├── inventory.csv       # 120 PHC medicines
+│   └── patients_routing.csv # 50 patients with GPS
+├── .env.example            # Environment template
+└── requirements.txt        # Python deps
+```
 
-## 🚀 Usage
-- 🌐 Access the application at http://localhost:3000
-- 🔑 Log in with your credentials
-- 📊 Navigate through the dashboard to manage inventory, view analytics, and generate reports
+---
 
-## ⚙️ Configuration
-- 🔧 Environment variables can be set in a `.env` file in the root directory
-- 🗄️ Database configuration can be adjusted in the backend Flask application
+## 🌐 API Endpoints
 
-## 👩‍💻 Development
-### 📜 Scripts
-- `npm start`: Start the development server
-- `npm build`: Build the application for production
-- `npm test`: Run tests
-- `npm eject`: Eject from Create React App
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/inventory/dashboard` | Stats summary |
+| POST | `/api/inventory/upload` | Import CSV |
+| GET | `/api/inventory/predict/:sku` | ML forecast |
+| POST | `/api/inventory/insights` | AI report |
+| POST | `/api/chatbot/chat` | Multilingual AI |
+| POST | `/api/chatbot/triage` | Red/Amber/Green |
+| POST | `/api/routing/upload` | Patient clustering |
+| POST | `/api/visits` | Log ASHA visit |
 
-### 🧹 ESLint Configuration
-This project uses the default ESLint configuration provided by Create React App.
+---
 
-## 📞 Contact
-For support or inquiries, please contact christopheraseer93@gmail.com.
+## 🔑 Environment Variables
+
+See `.env.example` for all variables. The only required one is:
+
+```env
+GOOGLE_API_KEY=your_key_here   # from aistudio.google.com/apikey (free)
+```
+
+---
+
+## 👥 Team — Genesis DEVs
+
+Christopher Asser J Albert · Ashutosh Bhonsle · Benzil Saju · Sophia John Chavakula
+
+---
+
+*Built for Smart India Hackathon 2024 — Problem Statement 25219*

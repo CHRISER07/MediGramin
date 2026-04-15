@@ -30,17 +30,17 @@ function Priority() {
     }
 
     const normalizedClusters = {};
-    
+
     Object.keys(data.clusters).forEach(clusterId => {
       const cluster = data.clusters[clusterId];
-      
+
       // If cluster is already an object with patients array
       if (cluster && typeof cluster === 'object' && cluster.patients && Array.isArray(cluster.patients)) {
         normalizedClusters[clusterId] = {
           ...cluster,
           patients: cluster.patients.map(normalizePatientData)
         };
-      } 
+      }
       // If cluster is directly the array of patients
       else if (Array.isArray(cluster)) {
         normalizedClusters[clusterId] = {
@@ -53,14 +53,14 @@ function Priority() {
         normalizedClusters[clusterId] = { patients: [], avg_distance: 0 };
       }
     });
-    
+
     return normalizedClusters;
   };
-  
+
   // Function to normalize patient data
   const normalizePatientData = (patient) => {
     if (!patient || typeof patient !== 'object') return {};
-    
+
     return {
       // Use consistent field names with fallbacks
       pid: patient.patient_id || patient.pid || 'unknown',
@@ -74,8 +74,8 @@ function Priority() {
       longitude: patient.longitude !== undefined ? patient.longitude : (patient.lon || 0),
       // Handle priority/urgency consistently
       priority: patient.priority || (patient.urgency_score > 10 ? 'high' : patient.urgency_score > 5 ? 'medium' : 'low'),
-      urgency_score: patient.urgency_score !== undefined ? patient.urgency_score : 
-                    (patient.priority === 'high' ? 15 : patient.priority === 'medium' ? 8 : 3)
+      urgency_score: patient.urgency_score !== undefined ? patient.urgency_score :
+        (patient.priority === 'high' ? 15 : patient.priority === 'medium' ? 8 : 3)
     };
   };
 
@@ -119,7 +119,7 @@ function Priority() {
     setError(null);
 
     try {
-      const response = await fetch('/update_priority', {
+      const response = await fetch('http://localhost:5000/api/routing/update_priority', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -161,7 +161,7 @@ function Priority() {
   const getHighPriorityPatients = () => {
     return Object.values(clusters).reduce((acc, cluster) => {
       if (cluster && cluster.patients && Array.isArray(cluster.patients)) {
-        const highPriority = cluster.patients.filter(p => 
+        const highPriority = cluster.patients.filter(p =>
           p && (p.priority === 'high' || p.urgency_score > 10)
         ).length;
         return acc + highPriority;
@@ -303,8 +303,8 @@ function Priority() {
                     <div className="map-stat-item">
                       <span className="stat-label">Patients:</span>
                       <span className="stat-value">
-                        {clusters[selectedCluster].patients && Array.isArray(clusters[selectedCluster].patients) 
-                          ? clusters[selectedCluster].patients.length 
+                        {clusters[selectedCluster].patients && Array.isArray(clusters[selectedCluster].patients)
+                          ? clusters[selectedCluster].patients.length
                           : 0}
                       </span>
                     </div>

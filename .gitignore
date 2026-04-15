@@ -1,1 +1,55 @@
-*
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ─────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment variables (NEVER commit real keys!) ──
+.env
+!.env.example
+
+# ── Databases (generated at runtime) ────────────────
+data/
+*.db
+*.sqlite3
+
+# ── Uploads (user data) ─────────────────────────────
+uploads/
+
+# ── Node / React ─────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+
+# ── React build output ───────────────────────────────
+build/
+.cache/
+
+# ── IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/
+
+# ── Windows ──────────────────────────────────────────
+desktop.ini
+$RECYCLE.BIN/

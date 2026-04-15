@@ -1,0 +1,12 @@
+{
+  "short_name": "MediGramin",
+  "name": "MediGramin — Rural Healthcare",
+  "icons": [
+    { "src": "favicon.ico", "sizes": "64x64 32x32 24x24 16x16", "type": "image/x-icon" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0a0e1a",
+  "background_color": "#0a0e1a",
+  "description": "AI-powered rural healthcare management for ASHA workers and PHC admins."
+}

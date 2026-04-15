@@ -1,0 +1,11 @@
+# MediGramin 2.0 — Python Dependencies
+# Install: pip install -r requirements.txt
+
+flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+requests>=2.31.0        # Used for direct Gemini REST API calls (no SDK needed)
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+werkzeug==3.0.3

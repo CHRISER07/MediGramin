@@ -1,0 +1,121 @@
+sku,product_name,category,current_stock,reorder_level,max_stock,unit_price,supplier,batch_no,expiry_date,last_updated,notes
+MED-001,Paracetamol 500mg Tablet,Analgesics & Antipyretics,4200,1000,6000,1.20,Cipla Ltd,CPL-2024-0312,2026-08-15,2025-04-01,Standard fever/pain tablet
+MED-002,Ibuprofen 400mg Tablet,Analgesics & Antipyretics,280,500,3000,2.50,Sun Pharma,SUN-2024-0891,2025-06-30,2025-04-01,Low stock alert
+MED-003,Aspirin 75mg Tablet,Analgesics & Antipyretics,1800,400,4000,0.80,Mankind Pharma,MAN-2024-1102,2026-12-31,2025-04-01,Cardiac dose
+MED-004,Diclofenac 50mg Tablet,Analgesics & Antipyretics,950,300,2500,3.10,Alkem Labs,ALK-2024-0445,2026-03-20,2025-04-01,Anti-inflammatory
+MED-005,Tramadol 50mg Capsule,Analgesics & Antipyretics,120,200,1000,18.00,Wockhardt,WOC-2024-0673,2025-09-10,2025-04-01,Schedule H
+MED-006,Amoxicillin 500mg Capsule,Antibiotics,3100,800,5000,8.50,GlaxoSmithKline,GSK-2024-2201,2026-10-31,2025-04-01,Broad spectrum
+MED-007,Amoxicillin-Clavulanate 625mg,Antibiotics,640,300,2000,42.00,Novartis India,NOV-2024-0334,2026-04-15,2025-04-01,Augmented penicillin
+MED-008,Azithromycin 500mg Tablet,Antibiotics,1200,400,3000,15.00,Cipla Ltd,CPL-2024-0889,2026-07-30,2025-04-01,Z-pack equivalent
+MED-009,Ciprofloxacin 500mg Tablet,Antibiotics,870,400,3000,6.00,Ranbaxy,RAN-2024-1550,2026-09-15,2025-04-01,UTI & GI infections
+MED-010,Doxycycline 100mg Capsule,Antibiotics,410,200,2000,4.50,IPCA Labs,IPC-2024-0298,2026-11-30,2025-04-01,Malaria prophylaxis
+MED-011,Metronidazole 400mg Tablet,Antibiotics,2200,600,4000,2.80,Cadila Health,CAD-2024-0781,2026-06-30,2025-04-01,Anaerobic infections
+MED-012,Cotrimoxazole 480mg Tablet,Antibiotics,1500,500,4000,1.90,Sun Pharma,SUN-2024-1122,2026-08-31,2025-04-01,Bacterial infections
+MED-013,Cefixime 200mg Tablet,Antibiotics,560,200,2000,22.00,Alkem Labs,ALK-2024-0912,2026-05-15,2025-04-01,3rd gen cephalosporin
+MED-014,Erythromycin 250mg Tablet,Antibiotics,320,300,2000,9.00,Abbott India,ABB-2024-0445,2025-07-20,2025-04-01,Expiring soon
+MED-015,Metformin 500mg Tablet,Antidiabetics,2800,700,5000,3.20,USV Private,USV-2024-1033,2026-12-31,2025-04-01,Type 2 diabetes first-line
+MED-016,Metformin 1000mg Tablet,Antidiabetics,960,300,3000,5.50,USV Private,USV-2024-1034,2026-12-31,2025-04-01,Extended release
+MED-017,Glibenclamide 5mg Tablet,Antidiabetics,1100,300,3000,2.10,Cipla Ltd,CPL-2024-1241,2026-10-15,2025-04-01,Sulphonylurea
+MED-018,Glimepiride 2mg Tablet,Antidiabetics,480,200,2000,8.00,Sanofi India,SAN-2024-0556,2026-08-31,2025-04-01,Newer sulphonylurea
+MED-019,Insulin Regular 40IU/ml Vial,Antidiabetics,85,30,150,180.00,Novo Nordisk,NON-2025-0012,2025-06-15,2025-04-01,Cold chain required
+MED-020,Insulin NPH 40IU/ml Vial,Antidiabetics,60,30,120,195.00,Novo Nordisk,NON-2025-0013,2025-06-15,2025-04-01,Cold chain - low stock
+MED-021,Amlodipine 5mg Tablet,Antihypertensives,3400,800,6000,1.80,Sun Pharma,SUN-2024-2001,2027-01-31,2025-04-01,CCB first-line HTN
+MED-022,Amlodipine 10mg Tablet,Antihypertensives,1200,400,3000,2.80,Sun Pharma,SUN-2024-2002,2027-01-31,2025-04-01,Higher dose CCB
+MED-023,Atenolol 50mg Tablet,Antihypertensives,1800,500,4000,1.20,Cipla Ltd,CPL-2024-1889,2026-11-30,2025-04-01,Beta blocker
+MED-024,Losartan 50mg Tablet,Antihypertensives,960,300,3000,5.50,Alkem Labs,ALK-2024-1003,2026-09-30,2025-04-01,ARB
+MED-025,Enalapril 5mg Tablet,Antihypertensives,740,300,3000,3.00,Ranbaxy,RAN-2024-2001,2026-07-31,2025-04-01,ACE inhibitor
+MED-026,Hydrochlorothiazide 25mg,Antihypertensives,2100,500,4000,0.90,Cipla Ltd,CPL-2024-1990,2026-12-31,2025-04-01,Diuretic
+MED-027,Furosemide 40mg Tablet,Antihypertensives,680,200,2000,1.50,Sun Pharma,SUN-2024-2211,2026-08-15,2025-04-01,Loop diuretic
+MED-028,Spironolactone 25mg Tablet,Antihypertensives,290,200,1500,8.00,RPG Life,RPG-2024-0334,2026-06-30,2025-04-01,Potassium-sparing
+MED-029,Iron-Folic Acid 150mg Tablet,Vitamins & Supplements,5200,1500,8000,1.10,Emcure Pharma,EMC-2024-1221,2026-10-31,2025-04-01,Anemia prevention
+MED-030,Folic Acid 5mg Tablet,Vitamins & Supplements,3800,1000,6000,0.60,Mankind Pharma,MAN-2024-2001,2027-02-28,2025-04-01,Pregnancy supplement
+MED-031,Vitamin D3 60000IU Capsule,Vitamins & Supplements,820,300,3000,18.00,Abbott India,ABB-2024-0889,2026-12-31,2025-04-01,Deficiency treatment
+MED-032,Vitamin B Complex Tablet,Vitamins & Supplements,2100,600,4000,3.50,Cadila Health,CAD-2024-1450,2026-09-30,2025-04-01,Nerve health
+MED-033,Calcium Carbonate 500mg,Vitamins & Supplements,1600,500,4000,2.20,Cadila Health,CAD-2024-1451,2026-11-30,2025-04-01,Pregnancy & elderly
+MED-034,Zinc Sulphate 20mg Tab,Vitamins & Supplements,3400,800,5000,1.40,IPCA Labs,IPC-2024-0889,2026-10-15,2025-04-01,Childhood diarrhea
+MED-035,ORS Sachet (WHO formula),ORS & Rehydration,8500,2000,12000,4.00,SRM Pharma,SRM-2024-0112,2026-06-30,2025-04-01,Key diarrhea treatment
+MED-036,Glucose Powder 100g Sachet,ORS & Rehydration,1200,400,3000,12.00,Nestlé India,NES-2024-0334,2026-03-31,2025-04-01,Expiring soon - use first
+MED-037,Normal Saline 500ml IV,ORS & Rehydration,340,100,600,55.00,Baxter India,BAX-2024-1001,2026-12-31,2025-04-01,IV fluids
+MED-038,Ringer Lactate 500ml IV,ORS & Rehydration,180,80,400,58.00,Baxter India,BAX-2024-1002,2026-12-31,2025-04-01,IV fluids
+MED-039,BCG Vaccine (10 dose vial),Vaccines & Biologicals,45,20,80,220.00,Serum Institute,SII-2025-0001,2025-08-31,2025-04-01,Cold chain 2-8°C
+MED-040,OPV Oral Vaccine (10 dose),Vaccines & Biologicals,60,20,100,85.00,Bharat Biotech,BBI-2025-0011,2025-07-15,2025-04-01,Cold chain -20°C
+MED-041,Pentavalent Vaccine (10 dose),Vaccines & Biologicals,48,20,80,380.00,Serum Institute,SII-2025-0002,2025-09-30,2025-04-01,DTP+HepB+Hib
+MED-042,Measles-Rubella Vaccine,Vaccines & Biologicals,36,15,60,195.00,Serum Institute,SII-2025-0003,2025-10-31,2025-04-01,MR vaccine
+MED-043,Tetanus Toxoid 10 dose vial,Vaccines & Biologicals,52,20,80,65.00,Haffkine Biopharma,HAF-2025-0001,2026-01-31,2025-04-01,TT for pregnancy
+MED-044,Hepatitis B Vaccine (10 dose),Vaccines & Biologicals,38,15,60,140.00,Bharat Biotech,BBI-2025-0012,2025-11-30,2025-04-01,Birth dose
+MED-045,Rabies Vaccine IM,Vaccines & Biologicals,18,10,30,850.00,Bharat Biotech,BBI-2025-0020,2025-06-30,2025-04-01,Emergency vaccine
+MED-046,Clotrimazole 1% Cream 15g,Antifungals,640,150,1500,22.00,Cipla Ltd,CPL-2024-2331,2026-08-31,2025-04-01,Skin fungal infections
+MED-047,Fluconazole 150mg Capsule,Antifungals,380,150,1200,12.00,Cipla Ltd,CPL-2024-2332,2026-10-15,2025-04-01,Oral candidiasis
+MED-048,Griseofulvin 250mg Tablet,Antifungals,190,100,800,8.50,IPCA Labs,IPC-2024-1001,2026-07-31,2025-04-01,Scalp ringworm
+MED-049,Albendazole 400mg Tablet,Antiparasitics,4800,1200,7000,2.80,GSK India,GSK-2024-3001,2026-12-31,2025-04-01,Deworming programme
+MED-050,Mebendazole 100mg Tablet,Antiparasitics,2100,600,4000,3.20,Mankind Pharma,MAN-2024-2889,2026-11-30,2025-04-01,Worm infestations
+MED-051,Chloroquine 250mg Tablet,Antiparasitics,1500,500,4000,3.50,IPCA Labs,IPC-2024-1112,2026-09-30,2025-04-01,Malaria (CQ-sensitive zones)
+MED-052,Artesunate 200mg Tablet,Antiparasitics,380,100,600,45.00,IPCA Labs,IPC-2024-1113,2026-06-30,2025-04-01,Malaria (CQ-resistant)
+MED-053,DEC 100mg Tablet,Antiparasitics,2200,500,4000,1.60,Novartis India,NOV-2024-0891,2026-10-15,2025-04-01,Lymphatic filariasis MDA
+MED-054,Betamethasone Cream 15g,Dermatologicals,420,150,1500,28.00,Cipla Ltd,CPL-2024-2500,2026-07-31,2025-04-01,Corticosteroid cream
+MED-055,Calamine Lotion 100ml,Dermatologicals,580,200,2000,35.00,Anchor Health,ANC-2024-0223,2026-09-30,2025-04-01,Skin soothing
+MED-056,Benzyl Benzoate 25% Lotion,Dermatologicals,310,100,1000,40.00,Cadila Health,CAD-2024-2001,2026-08-31,2025-04-01,Scabies treatment
+MED-057,Permethrin 5% Cream,Dermatologicals,180,80,600,65.00,GSK India,GSK-2024-3221,2026-05-31,2025-04-01,Scabies/lice
+MED-058,Salicylic Acid 6% Ointment,Dermatologicals,240,80,800,28.00,Mankind Pharma,MAN-2024-3001,2026-10-31,2025-04-01,Psoriasis/warts
+MED-059,Salbutamol 100mcg Inhaler,Respiratory,680,200,2000,95.00,Cipla Ltd,CPL-2024-2891,2026-09-30,2025-04-01,Acute bronchospasm
+MED-060,Salbutamol 2mg Tablet,Respiratory,920,300,3000,2.80,Sun Pharma,SUN-2024-3001,2026-11-30,2025-04-01,Oral bronchodilator
+MED-061,Beclomethasone 100mcg Inhaler,Respiratory,280,100,1000,145.00,GSK India,GSK-2024-3445,2026-07-31,2025-04-01,ICS for asthma
+MED-062,Theophylline 100mg Tablet,Respiratory,540,200,2000,4.20,Alkem Labs,ALK-2024-1450,2026-10-15,2025-04-01,COPD management
+MED-063,Bromhexine 8mg Tablet,Respiratory,1100,300,3000,2.50,Abbott India,ABB-2024-1001,2026-12-31,2025-04-01,Mucolytic
+MED-064,Cetirizine 10mg Tablet,Respiratory,1800,500,4000,2.20,Cipla Ltd,CPL-2024-3001,2026-11-30,2025-04-01,Antihistamine
+MED-065,Omeprazole 20mg Capsule,Gastrointestinal,2400,600,5000,4.80,Sun Pharma,SUN-2024-3221,2026-10-31,2025-04-01,PPI - acid control
+MED-066,Pantoprazole 40mg Tablet,Gastrointestinal,980,300,3000,6.50,Alkem Labs,ALK-2024-1660,2026-08-31,2025-04-01,GERD treatment
+MED-067,Ranitidine 150mg Tablet,Gastrointestinal,720,300,3000,2.10,Ranbaxy,RAN-2024-2782,2026-07-15,2025-04-01,H2 blocker
+MED-068,Domperidone 10mg Tablet,Gastrointestinal,1400,400,4000,3.80,Cipla Ltd,CPL-2024-3112,2026-12-31,2025-04-01,Nausea & vomiting
+MED-069,Ondansetron 4mg Tablet,Gastrointestinal,560,200,2000,8.00,Sun Pharma,SUN-2024-3445,2026-09-30,2025-04-01,Antiemetic
+MED-070,Dicyclomine 10mg Tablet,Gastrointestinal,880,250,3000,3.20,Alkem Labs,ALK-2024-1770,2026-11-15,2025-04-01,Antispasmodic
+MED-071,Loperamide 2mg Capsule,Gastrointestinal,1100,300,3000,4.50,Johnson India,JOH-2024-0445,2026-10-31,2025-04-01,Acute diarrhea
+MED-072,Adrenaline 1mg/ml Injection,Emergency Medicines,35,15,60,85.00,Neon Labs,NEO-2024-0001,2026-03-31,2025-04-01,Anaphylaxis - check expiry
+MED-073,Hydrocortisone 100mg Injection,Emergency Medicines,28,15,50,210.00,Cadila Health,CAD-2024-2201,2026-06-30,2025-04-01,Emergency steroid
+MED-074,Diazepam 5mg/ml Injection,Emergency Medicines,20,10,40,45.00,Neon Labs,NEO-2024-0002,2026-08-15,2025-04-01,Status epilepticus
+MED-075,Oxytocin 10IU Injection,Emergency Medicines,65,30,120,38.00,Neon Labs,NEO-2024-0003,2025-09-30,2025-04-01,PPH prevention
+MED-076,Magnesium Sulphate 50% Inj,Emergency Medicines,42,20,80,28.00,Baxter India,BAX-2024-1101,2026-12-31,2025-04-01,Eclampsia treatment
+MED-077,Atropine 0.6mg/ml Injection,Emergency Medicines,30,15,60,18.00,Neon Labs,NEO-2024-0004,2026-09-30,2025-04-01,Bradycardia/organophosphate
+MED-078,Dextrose 50% Injection 25ml,Emergency Medicines,48,20,80,22.00,Baxter India,BAX-2024-1102,2026-10-31,2025-04-01,Hypoglycemia
+MED-079,Phenobarbitone 60mg Tablet,Neurological,340,100,1000,2.20,Wockhardt,WOC-2024-0881,2026-12-31,2025-04-01,Epilepsy management
+MED-080,Phenytoin 100mg Tablet,Neurological,280,100,800,3.80,Sun Pharma,SUN-2024-3889,2026-11-30,2025-04-01,Seizure disorder
+MED-081,Carbamazepine 200mg Tablet,Neurological,210,100,800,5.50,Novartis India,NOV-2024-1001,2026-09-30,2025-04-01,Epilepsy & neuropathy
+MED-082,Amitriptyline 25mg Tablet,Neurological,180,80,600,2.80,Cipla Ltd,CPL-2024-3556,2026-10-31,2025-04-01,Depression & neuralgia
+MED-083,Chlorpromazine 100mg Tablet,Neurological,140,60,400,4.50,Sun Pharma,SUN-2024-4001,2026-08-31,2025-04-01,Schedule H
+MED-084,Prednisolone 5mg Tablet,Corticosteroids,1100,300,3000,1.80,Cipla Ltd,CPL-2024-3669,2026-12-31,2025-04-01,Inflammatory conditions
+MED-085,Dexamethasone 0.5mg Tablet,Corticosteroids,640,200,2000,2.50,Alkem Labs,ALK-2024-1990,2026-10-15,2025-04-01,Potent corticosteroid
+MED-086,Methylprednisolone 4mg,Corticosteroids,320,100,1000,12.00,Pfizer India,PFI-2024-0112,2026-09-30,2025-04-01,Anti-inflammatory
+MED-087,Betamethasone 0.5mg Tablet,Corticosteroids,280,100,800,3.80,GSK India,GSK-2024-3889,2026-08-31,2025-04-01,Antenatal steroids
+MED-088,Gentamicin Eye Drops 5ml,Ophthalmics & ENT,480,150,1500,25.00,Cipla Ltd,CPL-2024-3778,2026-07-31,2025-04-01,Bacterial conjunctivitis
+MED-089,Chloramphenicol Eye Drops,Ophthalmics & ENT,360,120,1200,18.00,Cipla Ltd,CPL-2024-3779,2026-09-30,2025-04-01,Eye infections
+MED-090,Betamethasone Eye Drops 5ml,Ophthalmics & ENT,220,80,800,32.00,Alkem Labs,ALK-2024-2001,2026-06-30,2025-04-01,Eye inflammation
+MED-091,Ear Drops (Boric+Glycerine),Ophthalmics & ENT,340,100,1000,28.00,Anchor Health,ANC-2024-0334,2026-11-30,2025-04-01,Otitis externa
+MED-092,Normal Saline NS Nasal Drops,Ophthalmics & ENT,620,200,2000,15.00,Cipla Ltd,CPL-2024-3890,2027-01-31,2025-04-01,Nasal congestion
+MED-093,Misoprostol 200mcg Tablet,Maternal Health,480,150,1200,18.00,Cipla Ltd,CPL-2024-4001,2026-08-31,2025-04-01,PPH prevention/cervical ripening
+MED-094,Ferrous Sulphate 200mg,Maternal Health,3200,800,5000,1.50,Emcure Pharma,EMC-2024-1889,2026-12-31,2025-04-01,Anemia in pregnancy
+MED-095,Calcium Lactate 500mg,Maternal Health,1800,500,4000,2.00,Cadila Health,CAD-2024-2445,2026-10-31,2025-04-01,Pregnancy supplement
+MED-096,Nifedipine 10mg Capsule,Maternal Health,380,120,1000,4.50,Sun Pharma,SUN-2024-4221,2026-07-31,2025-04-01,Hypertension in pregnancy
+MED-097,Methyldopa 250mg Tablet,Maternal Health,620,200,2000,5.20,Cipla Ltd,CPL-2024-4112,2026-09-30,2025-04-01,Safe in pregnancy hypertension
+MED-098,Vitamin A 100000IU Capsule,Child Health,2800,700,5000,3.20,Emcure Pharma,EMC-2024-2001,2026-11-30,2025-04-01,VAD programme
+MED-099,ORS Sachet Pediatric (60ml),Child Health,4200,1000,7000,5.00,Sanofi India,SAN-2024-1001,2026-08-31,2025-04-01,Child dehydration
+MED-100,Cotrimoxazole Paediatric Syrup,Child Health,840,250,2000,28.00,Cipla Ltd,CPL-2024-4223,2026-09-30,2025-04-01,Pediatric infections
+MED-101,Amoxicillin Dry Syrup 125mg/5ml,Child Health,960,300,2500,35.00,GSK India,GSK-2024-4001,2026-10-31,2025-04-01,Pediatric antibiotic
+MED-102,Paracetamol Syrup 125mg/5ml,Child Health,1800,500,4000,22.00,Mankind Pharma,MAN-2024-3889,2026-12-31,2025-04-01,Pediatric fever
+MED-103,Cetirizine Syrup 5mg/5ml,Child Health,640,200,2000,32.00,Cipla Ltd,CPL-2024-4334,2026-11-15,2025-04-01,Pediatric allergy
+MED-104,Surgical Spirit 450ml,Surgical & Wound Care,580,150,1500,45.00,Fine Chem,FIN-2024-0112,2026-12-31,2025-04-01,Antiseptic
+MED-105,Povidone Iodine 5% Solution,Surgical & Wound Care,420,100,1200,55.00,Win-Medicare,WIN-2024-0223,2026-10-31,2025-04-01,Wound antiseptic
+MED-106,Hydrogen Peroxide 3% 100ml,Surgical & Wound Care,310,100,1000,35.00,Fine Chem,FIN-2024-0113,2026-09-30,2025-04-01,Wound cleaning
+MED-107,Silver Sulfadiazine 1% Cream,Surgical & Wound Care,180,60,600,85.00,Cadila Health,CAD-2024-2889,2026-08-31,2025-04-01,Burns treatment
+MED-108,Mupirocin 2% Ointment 5g,Surgical & Wound Care,290,80,800,48.00,GSK India,GSK-2024-4223,2026-07-31,2025-04-01,Impetigo & wound infection
+MED-109,Disposable Syringe 2ml,Medical Consumables,6800,2000,10000,2.50,Hindustan Syringes,HIN-2024-0001,2027-06-30,2025-04-01,Single use only
+MED-110,Disposable Syringe 5ml,Medical Consumables,4200,1500,8000,3.50,Hindustan Syringes,HIN-2024-0002,2027-06-30,2025-04-01,Single use only
+MED-111,Disposable Gloves (Latex) Box,Medical Consumables,85,30,150,380.00,Ansell India,ANS-2024-0001,2026-12-31,2025-04-01,Box of 100
+MED-112,Surgical Mask N95 (Box 25),Medical Consumables,42,20,80,450.00,3M India,3MI-2024-0001,2026-09-30,2025-04-01,Box of 25
+MED-113,Bandage Crepe 8cm x 4m,Medical Consumables,340,100,1000,28.00,Wundaplast,WUN-2024-0112,2027-03-31,2025-04-01,Elastic bandage
+MED-114,Cotton Absorbent 500g Roll,Medical Consumables,180,60,400,85.00,Wundaplast,WUN-2024-0113,2027-06-30,2025-04-01,Wound dressing
+MED-115,Glucometer Test Strips (Box 50),Diagnostic Supplies,62,25,100,280.00,Accu-Chek India,ACC-2025-0001,2025-08-31,2025-04-01,For BG monitoring
+MED-116,Urine Dipstick 100 strip pack,Diagnostic Supplies,38,20,80,450.00,Tulip Diagnostics,TUL-2025-0001,2025-10-31,2025-04-01,Urine analysis
+MED-117,Pregnancy Test Kit (Box 25),Diagnostic Supplies,55,25,100,220.00,Piramal Health,PIR-2025-0001,2026-06-30,2025-04-01,Rapid test
+MED-118,Malaria RDT Kit (Box 25),Diagnostic Supplies,48,20,80,380.00,Piramal Health,PIR-2025-0002,2025-11-30,2025-04-01,P. falciparum+P. vivax
+MED-119,Hemoglobin Test Strips (Box 50),Diagnostic Supplies,34,20,80,310.00,HemoCue India,HEM-2025-0001,2025-07-31,2025-04-01,Anemia screening
+MED-120,Digoxin 0.25mg Tablet,Cardiac,280,80,600,3.20,Sun Pharma,SUN-2024-4889,2026-10-31,2025-04-01,Heart failure/AF

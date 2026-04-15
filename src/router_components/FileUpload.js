@@ -29,7 +29,7 @@ const FileUpload = ({ onUploadSuccess, onUploadError, loading, setLoading }) => 
     setError('');
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/upload', {
+      const response = await fetch('http://localhost:5000/api/routing/upload', {
         method: 'POST',
         body: formData,
       });
@@ -37,12 +37,12 @@ const FileUpload = ({ onUploadSuccess, onUploadError, loading, setLoading }) => 
       if (!response.ok) throw new Error('Upload failed');
 
       const data = await response.json();
-      
+
       // Ensure data has the expected structure
       if (!data || !data.clusters || typeof data.clusters !== 'object') {
         throw new Error('Invalid data format received from server');
       }
-      
+
       onUploadSuccess(data);
     } catch (err) {
       const errorMessage = 'Failed to upload file: ' + (err.message || 'Please try again.');
@@ -79,11 +79,11 @@ const FileUpload = ({ onUploadSuccess, onUploadError, loading, setLoading }) => 
       if (file.name.endsWith('.csv')) {
         setFileName(file.name);
         setError(''); // Clear any previous errors
-        
+
         // Create a new DataTransfer object
         const dataTransfer = new DataTransfer();
         dataTransfer.items.add(file);
-        
+
         // Set the files property of the file input
         const fileInput = document.getElementById('file-upload');
         fileInput.files = dataTransfer.files;

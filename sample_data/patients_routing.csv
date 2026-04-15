@@ -1,0 +1,51 @@
+patient_id,name,latitude,longitude,age,gender,village,severity_level,last_consultation_date,stock_available
+PAT-001,Ramesh Kumar Yadav,28.6392,77.2152,58,Male,Chandpur,Critical,2024-12-15,No
+PAT-002,Sunita Devi,28.6512,77.2301,34,Female,Baharpur,Moderate,2025-01-28,Yes
+PAT-003,Mohan Singh Negi,28.6105,77.1980,72,Male,Pahari,Critical,2024-11-05,No
+PAT-004,Anita Kumari,28.6633,77.2450,26,Female,Dhulkot,Mild,2025-02-14,Yes
+PAT-005,Shyam Lal Verma,28.5985,77.1845,65,Male,Rajpur,Severe,2024-12-28,Low
+PAT-006,Geeta Sharma,28.6789,77.2567,42,Female,Nangal,Moderate,2025-01-10,Yes
+PAT-007,Ravi Shankar Pandey,28.6234,77.2089,49,Male,Sundarpur,Severe,2024-12-03,No
+PAT-008,Meena Devi Gupta,28.6445,77.2234,31,Female,Khaira,Mild,2025-02-20,Yes
+PAT-009,Harish Chandra,28.5890,77.1720,78,Male,Tigri,Critical,2024-10-18,No
+PAT-010,Poonam Rani,28.6567,77.2389,22,Female,Badhal,Mild,2025-03-01,Yes
+PAT-011,Suresh Prasad,28.6123,77.1956,61,Male,Jharsi,Severe,2024-12-20,Low
+PAT-012,Kamla Bai,28.6678,77.2512,55,Female,Dulina,Moderate,2025-01-05,Yes
+PAT-013,Dharm Singh,28.5945,77.1812,70,Male,Khor,Critical,2024-11-15,No
+PAT-014,Savitri Devi,28.6789,77.2601,38,Female,Phoolpur,Mild,2025-02-08,Yes
+PAT-015,Manoj Kumar,28.6334,77.2178,45,Male,Amanpur,Moderate,2025-01-22,Low
+PAT-016,Rekha Sharma,28.6512,77.2345,29,Female,Dhanipur,Mild,2025-03-05,Yes
+PAT-017,Baldev Singh,28.5812,77.1690,83,Male,Gadpur,Critical,2024-10-02,No
+PAT-018,Urmila Devi,28.6623,77.2489,47,Female,Nangli,Moderate,2025-01-15,Yes
+PAT-019,Kamlesh Prasad,28.6045,77.1878,54,Male,Sehroli,Severe,2024-12-10,No
+PAT-020,Champa Bai,28.6734,77.2556,63,Female,Kakroli,Moderate,2025-01-30,Low
+PAT-021,Vijay Kumar Tiwari,28.6178,77.2023,37,Male,Seoti,Mild,2025-02-25,Yes
+PAT-022,Santosh Kumari,28.6467,77.2278,19,Female,Lahli,Mild,2025-03-10,Yes
+PAT-023,Ram Prasad Yadav,28.5923,77.1756,66,Male,Bhagola,Severe,2024-11-28,Low
+PAT-024,Lalita Devi,28.6578,77.2412,41,Female,Palana,Mild,2025-02-03,Yes
+PAT-025,Naveen Singh,28.6289,77.2134,32,Male,Machhgar,Mild,2025-03-15,Yes
+PAT-026,Sarita Rani,28.6645,77.2501,56,Female,Lauta,Moderate,2024-12-25,Low
+PAT-027,Ganga Ram,28.5867,77.1734,75,Male,Budhpur,Critical,2024-09-20,No
+PAT-028,Nirmala Devi,28.6712,77.2534,33,Female,Asaoda,Mild,2025-02-18,Yes
+PAT-029,Rajesh Chauhan,28.6078,77.1912,43,Male,Siraspur,Moderate,2025-01-08,Yes
+PAT-030,Bimla Rani,28.6589,77.2423,68,Female,Qadipur,Severe,2024-12-05,No
+PAT-031,Amrit Lal,28.5978,77.1823,52,Male,Matiala,Moderate,2025-01-18,Low
+PAT-032,Shanti Devi,28.6723,77.2545,27,Female,Pooth Khurd,Mild,2025-03-02,Yes
+PAT-033,Sunil Kumar Sharma,28.6212,77.2056,39,Male,Nithari,Mild,2025-02-28,Yes
+PAT-034,Pushpa Devi,28.6534,77.2367,71,Female,Daulpur,Critical,2024-10-25,No
+PAT-035,Ramavtar Singh,28.5901,77.1778,60,Male,Bhalswa,Severe,2024-12-18,Low
+PAT-036,Kanta Bai,28.6656,77.2489,46,Female,Mukhmelpur,Moderate,2025-01-25,Yes
+PAT-037,Dinesh Pal,28.6156,77.1990,28,Male,Kanjhawala,Mild,2025-03-08,Yes
+PAT-038,Sarswati Devi,28.6745,77.2567,59,Female,Barwala,Moderate,2024-12-30,Low
+PAT-039,Mahesh Chand,28.5934,77.1801,67,Male,Tikri Kalan,Critical,2024-11-10,No
+PAT-040,Radha Rani,28.6601,77.2456,24,Female,Mundka,Mild,2025-02-22,Yes
+PAT-041,Om Prakash,28.6245,77.2101,57,Male,Nangloi,Severe,2024-12-08,No
+PAT-042,Shobha Devi,28.6489,77.2312,35,Female,Ranhola,Mild,2025-03-12,Yes
+PAT-043,Harkishan Das,28.5856,77.1712,80,Male,Baprola,Critical,2024-09-05,No
+PAT-044,Neelam Rani,28.6701,77.2523,44,Female,Najafgarh,Moderate,2025-01-12,Yes
+PAT-045,Chandan Singh,28.6167,77.2012,36,Male,Dhansa,Mild,2025-02-26,Yes
+PAT-046,Chameli Devi,28.6545,77.2378,73,Female,Mitraon,Critical,2024-10-30,No
+PAT-047,Birendra Kumar,28.6023,77.1867,48,Male,Uttam Nagar,Severe,2024-12-22,Low
+PAT-048,Saroj Devi,28.6712,77.2534,30,Female,Dwarka,Mild,2025-03-06,Yes
+PAT-049,Govind Ram,28.5945,77.1812,62,Male,Samaspur,Moderate,2025-01-20,Low
+PAT-050,Anita Bai,28.6623,77.2467,53,Female,Palam,Moderate,2024-12-12,Low
