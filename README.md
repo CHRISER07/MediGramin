@@ -117,10 +117,8 @@ GOOGLE_API_KEY=your_key_here   # from aistudio.google.com/apikey (free)
 
 ---
 
-## 👥 Team — Genesis DEVs
+## 👥 Team — SilverArrows
 
 Christopher Asser J Albert · Ashutosh Bhonsle · Benzil Saju · Sophia John Chavakula
 
 ---
-
-*Built for Smart India Hackathon 2024 — Problem Statement 25219*
